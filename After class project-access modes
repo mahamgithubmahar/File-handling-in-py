@@ -1,0 +1,15 @@
+write=open("Codingal3.txt","w")
+write.write("Hi")
+write.close()
+
+read=open('Codingal3.txt','r')
+print(read.read())
+read.close()
+
+append=open("Codingal3.txt","a")
+append.write("\n Goodbye")
+append.close()
+
+read=open('Codingal3.txt','r')
+print(read.read())
+read.close()
